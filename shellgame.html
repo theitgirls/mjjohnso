@@ -1,0 +1,35 @@
+<script>
+    function WinnerMessage (){ 
+    document.getElementById("messages").innerHTML ='You won!';
+    }
+
+    function TryAgain (){ 
+    document.getElementById("messages").innerHTML ='Wrong Shell - Try Again';
+    }
+
+    function ShuffleShells(){
+        document.getElementById("first").sty;e.order = Math.floor((Math.random() * 3) + 2);
+    }
+</script>
+
+<h1>Choose a Walnut</h1>
+<div class="container">
+<img src="nut.jpg" alt="first walnut" onclick="WinnerMessage();">
+<img src="nut.jpg" alt="second walnut" onclick="TryAgain();">
+<img src="nut.jpg" alt="third walnut" onclick="TryAgain();">
+</div>
+
+<div id="messages"></div>
+
+<style>
+    .container{
+        display: flex;
+    }
+    #first {order: 1;}
+    #second {order: 2;}
+    #third {order: 3;}
+</style>
+
+<body onload="ShuffleShells();">
+
+</body>
