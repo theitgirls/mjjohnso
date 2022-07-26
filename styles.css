@@ -12,10 +12,15 @@ h2 {
     font-family: 'Space Mono', monospace;
 }
 
-nav {color:darkslategray}
+nav {color:darkslategray;}
 
 nav a{color: white;}
 a {color:white;}
 
 nav a:hover {background-color: gray;}
 .rora {width: 300 pixel;}
+
+nav {
+    padding: 10px;
+    background-color: slategray;
+}
