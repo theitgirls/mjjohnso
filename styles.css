@@ -1,7 +1,21 @@
 body {
     background-color:powderblue;
 }
-h1 {color:white; background-color:drakslategray}
-h2 {color:white; background-color:drakslategray}
-a {color:darkslategray}
+h1{
+    color:white;
+     background-color:drakslategray;
+     font-family: 'Space Mono', monospace;
+    }
+h2 {
+    color:white; 
+    background-color:drakslategray;
+    font-family: 'Space Mono', monospace;
+}
+
+nav {color:darkslategray}
+
+nav a{color: white;}
+a {color:white;}
+
+nav a:hover {background-color: gray;}
 .rora {width: 300 pixel;}
