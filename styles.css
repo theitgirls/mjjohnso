@@ -1,27 +1,31 @@
 body {
     background-color:powderblue;
+    font-family:verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
-    color:white;
-     background-color:drakslategray;
-     font-family: 'Space Mono', monospace;
-    }
+h1 {
+    color:white; 
+background-color:drakslategray;
+font-family: 'Space Mono', monospace;
+}
 h2 {
     color:white; 
-    background-color:drakslategray;
-    font-family: 'Space Mono', monospace;
+background-color:drakslategray;
 }
+nav a:hover {background-color:slategray;}
 
-nav {color:darkslategray;}
-
-nav a{color: white;}
-a {color:white;}
-
-nav a:hover {background-color: gray;}
-.rora {width: 300 pixel;}
+nav a {color: white;}
+nav {color: white;}
 
 nav {
     padding: 10px;
     margin-bottom: 30px;
-    background-color: slategray;
+    background-color:aliceblue;
+}
+
+Div {
+    border: 1px solid black;
+    margin: 30px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
 }
